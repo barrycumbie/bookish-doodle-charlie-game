@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Example: Footer</title>
+  <link rel="stylesheet" href="../assets/css/examples.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <div class="container py-5 flex-grow-1">
+    <h1 class="mb-3">Footer Example</h1>
+    <p class="text-muted">
+      A simple footer pinned to the bottom via <code>min-vh-100</code> +
+      <code>flex-grow-1</code> on <code>&lt;body&gt;</code>, with links back to
+      the repo, your GitHub profile, and anything else you want to credit.
+    </p>
+  </div>
+
+  <!-- footer: swap these hrefs for your repo/profile links -->
+  <footer class="bg-dark text-light py-3 mt-auto">
+    <div class="container d-flex justify-content-between flex-wrap gap-2">
+      <span>&copy; 2026 Charlie Game</span>
+      <div>
+        <a class="link-light me-3" href="https://github.com/barrycumbie/bookish-doodle-charlie-game" target="_blank">
+          <i class="bi bi-github me-1"></i>Repo
+        </a>
+        <a class="link-light" href="https://github.com/barrycumbie" target="_blank">
+          <i class="bi bi-person-circle me-1"></i>Profile
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

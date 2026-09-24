@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Example: Sticky Top Nav</title>
+  <link rel="stylesheet" href="../assets/css/examples.css" />
+</head>
+<body>
+
+  <!--
+    STICKY NAVBAR
+    - Only difference from nav.html: .sticky-top is added to the <nav>.
+    - .sticky-top uses position: sticky + top: 0, so it sticks once you scroll past it,
+      but (unlike .fixed-top) it still takes up space in normal flow until then.
+  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-controller me-2"></i>Charlie Game
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navSticky">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navSticky">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Concept</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Full Game</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container text-center py-5">
+      <h1>Sticky Nav Example</h1>
+      <p class="lead">Scroll down. Notice the navbar above sticks to the top of the viewport.</p>
+    </div>
+
+    <div class="filler-section"><h2>Section 1</h2></div>
+    <div class="filler-section"><h2>Section 2</h2></div>
+    <div class="filler-section"><h2>Section 3</h2></div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

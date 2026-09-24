@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teaching Examples Dashboard</title>
+  <link rel="stylesheet" href="assets/css/examples.css" />
+</head>
+<body>
+
+  <div class="container py-5">
+    <h1 class="mb-1"><i class="bi bi-grid-3x3-gap-fill me-2"></i>Teaching Examples</h1>
+    <p class="text-muted mb-5">Standalone demo pages for the assignment's minimum acceptance criteria.</p>
+
+    <h2 class="h4 mb-3">MAC Demos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-3 mb-5">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title h5"><i class="bi bi-list me-1"></i>Basic Nav</h3>
+            <p class="card-text">Plain top navbar that scrolls away with the page.</p>
+            <a href="pages/nav.html" class="btn btn-sm btn-primary">Open</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title h5"><i class="bi bi-pin-angle-fill me-1"></i>Sticky Nav</h3>
+            <p class="card-text">Same navbar with <code>.sticky-top</code> added.</p>
+            <a href="pages/nav-sticky.html" class="btn btn-sm btn-primary">Open</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title h5"><i class="bi bi-grid-3x3 me-1"></i>Game Board</h3>
+            <p class="card-text">A board <code>&lt;div&gt;</code> plus score/leaderboard cards.</p>
+            <a href="pages/game-board.html" class="btn btn-sm btn-primary">Open</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title h5"><i class="bi bi-person-badge me-1"></i>Name Entry</h3>
+            <p class="card-text">Name input saved to <code>sessionStorage</code>, guest fallback.</p>
+            <a href="pages/name-entry.html" class="btn btn-sm btn-primary">Open</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title h5"><i class="bi bi-layout-text-window-reverse me-1"></i>Footer</h3>
+            <p class="card-text">Footer pinned to the bottom with repo/profile links.</p>
+            <a href="pages/footer.html" class="btn btn-sm btn-primary">Open</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="h4 mb-3">Past Student Games (Inspiration)</h2>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+         href="https://github.com/barrycumbie/fords-game" target="_blank">
+        Ford's Game
+        <i class="bi bi-box-arrow-up-right"></i>
+      </a>
+      <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+         href="https://github.com/barrycumbie/bravo-webgame" target="_blank">
+        Bravo Webgame <span class="text-muted small">(issue write-up example)</span>
+        <i class="bi bi-box-arrow-up-right"></i>
+      </a>
+      <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+         href="https://github.com/barrycumbie/game-score" target="_blank">
+        Game Score <span class="text-muted small">(scoring/leaderboard pattern)</span>
+        <i class="bi bi-box-arrow-up-right"></i>
+      </a>
+      <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+         href="https://github.com/barrycumbie/ubiquitous-waffle-some-game" target="_blank">
+        Ubiquitous Waffle (Choice Game) <span class="text-muted small">(jQuery UI drag &amp; drop)</span>
+        <i class="bi bi-box-arrow-up-right"></i>
+      </a>
+      <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+         href="https://github.com/barrycumbie/literate-dollop-superGame" target="_blank">
+        Literate Dollop (Kitty Game)
+        <i class="bi bi-box-arrow-up-right"></i>
+      </a>
+      <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+         href="https://github.com/barrycumbie/fluffy-umbrella-bravo" target="_blank">
+        Fluffy Umbrella Bravo (Card Sorting Game) <span class="text-muted small">(broken, good debugging example)</span>
+        <i class="bi bi-box-arrow-up-right"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

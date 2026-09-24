@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Example: Basic Top Nav</title>
+  <!-- BS5.3 pulled in via @import inside examples.css, per assignment note -->
+  <link rel="stylesheet" href="../assets/css/examples.css" />
+</head>
+<body>
+
+  <!--
+    BASIC (non-sticky) NAVBAR
+    - Scrolls away with the page, it's just a normal element in flow.
+    - .navbar + .navbar-expand-lg + .navbar-light/.bg-light are the core BS5 classes.
+    - .navbar-brand holds the icon + title.
+  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-controller me-2"></i>Charlie Game
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBasic">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navBasic">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Concept</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Full Game</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container text-center py-5">
+      <h1>Basic Nav Example</h1>
+      <p class="lead">Scroll down. Notice the navbar above scrolls away with the page.</p>
+    </div>
+
+    <div class="filler-section"><h2>Section 1</h2></div>
+    <div class="filler-section"><h2>Section 2</h2></div>
+    <div class="filler-section"><h2>Section 3</h2></div>
+  </main>
+
+  <!-- BS5 bundle (includes Popper) needed for the navbar toggler on small screens -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

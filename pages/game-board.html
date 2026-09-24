@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Example: Game Board</title>
+  <link rel="stylesheet" href="../assets/css/examples.css" />
+</head>
+<body>
+
+  <div class="container py-5">
+    <h1 class="mb-3">Game Board Example</h1>
+    <p class="text-muted">
+      The "game board" is just a `&lt;div&gt;` (or `&lt;section&gt;`) you style and
+      fill with whatever your game needs — cells, cards, an image, canvas, etc.
+      No mobile responsiveness is required for this assignment.
+    </p>
+
+    <div class="row">
+      <div class="col-8">
+        <!-- the actual game board: swap this grid for your game's content -->
+        <div id="gameBoard" class="border rounded p-3 bg-light">
+          <div class="row row-cols-4 g-2">
+            <div class="col"><div class="board-cell">1</div></div>
+            <div class="col"><div class="board-cell">2</div></div>
+            <div class="col"><div class="board-cell">3</div></div>
+            <div class="col"><div class="board-cell">4</div></div>
+            <div class="col"><div class="board-cell">5</div></div>
+            <div class="col"><div class="board-cell">6</div></div>
+            <div class="col"><div class="board-cell">7</div></div>
+            <div class="col"><div class="board-cell">8</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <!-- score + leaderboard live beside/below the board -->
+        <div class="card mb-3">
+          <div class="card-header"><i class="bi bi-star-fill me-1"></i>Score</div>
+          <div class="card-body"><p class="card-text fs-4 mb-0">0</p></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><i class="bi bi-trophy-fill me-1"></i>Leaderboard</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between">Nova <span>42</span></li>
+            <li class="list-group-item d-flex justify-content-between">Rook <span>31</span></li>
+            <li class="list-group-item d-flex justify-content-between">Pixel <span>17</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .board-cell {
+      aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
