@@ -17,7 +17,19 @@ Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the D
 
 ## about the app
 
-### each of these as lvl-3 headings...
+<! -- ### each of these as lvl-3 headings... --> 
+
+### wireframe & game ideas
+
+
+
+### project directory structre
+
+### tech stack
+
+### code snippet
+
+### future ideas. 
 
 - links to wiki/wireframe & issue/game ideas
 - a `tree` of your directory structure 
