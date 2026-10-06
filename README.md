@@ -27,7 +27,7 @@ Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the D
 
 ### project directory structure
 
-```text
+```test
 C:.
 ├───public
 │   ├───assets
@@ -237,13 +237,28 @@ C:.
         ├───vary
         └───wrappy
 
-
 ```
-
 
 ### tech stack
 
 ### code snippet
+
+- this code ... 
+
+```js
+//here's the jq f/n to enable dragging of my car game pice. 
+$('#car').draggable({
+
+    stop: function() {
+        carPosition = $('#car').position();
+        console.log(carPosition);           
+      }
+    }
+);
+```
+
+
+
 
 ### future ideas. 
 > check out Sprint 99 for future app ideaa
