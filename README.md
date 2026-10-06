@@ -1,5 +1,3 @@
-# bookish-doodle-charlie-game
-
 # game title
 > short tagline
 
