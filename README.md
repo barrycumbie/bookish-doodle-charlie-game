@@ -21,6 +21,8 @@ Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the D
 
 ### wireframe & game ideas
 
+- [wiki/wireframe](https://github.com/barrycumbie/bookish-doodle-charlie-game/wiki/game-wireframe)
+- [issue/game idea](https://github.com/barrycumbie/bookish-doodle-charlie-game/issues/1)
 
 
 ### project directory structre
